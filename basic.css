@@ -1,0 +1,52 @@
+body {
+   font-family: 'Arial', sans-serif;
+   color: #ffffff;
+   margin: 0;
+   padding: 110px;
+   text-align: center;
+}
+
+h1 {
+   color: #4285f4;
+   padding: 20px;
+}
+
+button {
+   background-color: #4285f4;
+   color: #ffffff;
+   font-size: 16px;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   border-radius: 4px;
+   
+}
+
+button:hover {
+   background-color: #2a2a2a;
+}
+
+button:focus {
+   outline: none;
+}
+
+.alexaImage {
+   transition: transform 0.5s; 
+}
+
+.pop {
+   transform: scale(1.2); 
+}
+
+#alexaImage {
+   transition: transform 0.5s; /* Add smooth transition effect */
+
+}
+
+.pop {
+   transform: scale(1.2); /* You can adjust the scaling factor as needed */
+}
+
+
+
+
